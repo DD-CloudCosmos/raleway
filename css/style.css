@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@400;500;600;800&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+:root {
+    --brown: #998675;
+    --darkbrown: #736357;
+    --white: #fff;
+    --lightgrey: #555555;
+    --lightgrey: #8c8c8c;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    color: var(--white);
+    line-height: 1.6rem;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: top center;
+}
+
+main {
+    height: 200px;
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 1172px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+header .topnav {
+    display: flex;
+    align-items: center;
+}
+
+header .topnav .search {
+    margin-left: 70px;
+}
+
+header .topnav .logo {
+    margin-right: auto;
+}
+
+header .topnav .logo {
+    font-size: 5rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+header .topnav .log span {}
+
+
+
+
+
+@media screen and(max-width:1400px) {
+    .container {
+        width: 80%;
+    }
+
+}
+
+@media screen and(max-width:1000px) {
+    .container {
+        width: 96%;
+    }
+
+}
